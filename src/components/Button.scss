@@ -39,7 +39,7 @@ $blue: #228be6;
     background: darken($blue, 10%);
   }
 
-  &+&{
+  & + & {
     margin-left: 1rem;
   }
 }
