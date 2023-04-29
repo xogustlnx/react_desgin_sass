@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.scss";
 import Button from "./components/Button";
 
@@ -6,7 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="buttons">
-        <Button>BUTTON</Button>
+        <Button size="large">BUTTON</Button>
+        <Button size="medium">BUTTON</Button>
+        <Button size="small">BUTTON</Button>
       </div>
     </div>
   );
