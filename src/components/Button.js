@@ -2,9 +2,9 @@ import React from "react";
 import classNames from "classnames";
 import "./Button.scss";
 
-const Button = ({ children, size, color, outline }) => {
+const Button = ({ children, size, color, outline, full}) => {
   return (
-    <button className={classNames("Button", size, color, { outline })}>
+    <button className={classNames("Button", size, color, { outline }, {full})}>
       {children}
     </button>
   );
