@@ -46,6 +46,18 @@ function App() {
           BUTTON
         </Button>
       </div>
+
+      <div className="buttons">
+        <Button size="large" color="gray" full>
+          BUTTON
+        </Button>
+        <Button size="large" color="pink" full>
+          BUTTON
+        </Button>
+        <Button size="large" color="blue" full>
+          BUTTON
+        </Button>
+      </div>
     </div>
   );
 }
